@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public abstract class Page {
     private final WebDriver driver;
-    //private final EventFiringWebDriver driver;
     private final WebDriverWait wait;
 
     public Page(final WebDriver driver){
